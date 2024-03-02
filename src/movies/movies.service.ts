@@ -28,7 +28,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaClient } from '@prisma/client';
 import { CreateMovieDto, StorageObjectDto } from './dto/movies.dto';
-import { UserService } from 'src/user/user.service';
+// import { UserService } from 'src/user/user.service';
 import { CloudinaryService } from 'src/cloudinary/cloudinary.service';
 import { exit } from 'process';
 
